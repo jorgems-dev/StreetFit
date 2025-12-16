@@ -90,7 +90,7 @@ public class AtletasController {
     /**
      * 
      * @param id
-     * @return
+     * @return Lista
      */
     @GetMapping("/disponibles/{id}")
     public List<AtletasEntity> obtenerAtletasDisponibles(@PathVariable Long id) {

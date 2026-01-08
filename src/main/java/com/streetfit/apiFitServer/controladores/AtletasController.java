@@ -22,10 +22,6 @@ public class AtletasController {
 	private final AtletasService atletasService;
 	private final EntrenadoresService entrenadoresService;
 
-	/**
-	 * Inyeccion de dependencia.
-	 * @param atletasService
-	 */
 	@Autowired
 	public AtletasController(AtletasService atletasService, EntrenadoresService entrenadoresService) {
 		this.atletasService = atletasService;
